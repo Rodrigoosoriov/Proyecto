@@ -1,0 +1,199 @@
+.Menu h1{
+float: left;
+padding-top: 20px;
+padding: 0 20px;
+color: white;
+}
+
+.container2{
+  background: black;
+  width: 80%;
+  height: 100px;
+  margin: auto;
+}
+
+.Menu a {
+ color: #fff;
+}
+
+.Menu ul {
+ list-style: none;
+ float: right;
+}
+.Menu ul li{
+ float: left;
+}
+ .Menu ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+
+ }
+
+ .Menu ul li a:hover,
+ .Menu ul li a.current {
+  border-color: #3d8e33;
+  background: #FFF;
+  color: #5BBF21;
+ }
+
+html, body {
+  background-color: #C8CCC6;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7em;
+}
+
+
+.container{
+  background: url('../Imagenes/perro7.jpg');
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+.containerInfo{
+
+  width: 60%;
+  background: #7FD849;
+  margin: auto;
+  padding: 12px;
+  margin-top: 60px;
+}
+
+.informacion{
+  margin: 20px 20px 20px 20px;
+}
+
+.containerInfo h3 p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+float: right;
+}
+
+p{
+  text-align: justify;
+}
+
+.containerInfo img {
+  width: 17%;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#img2 {
+  width: 30%;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#img3 {
+  width: 20%;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#img4 {
+  width: 40%;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+#img5 {
+  width: 40%;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#img6 {
+  width: 40%;
+  float: left;
+  margin: 0px 20px 0px 0px;
+}
+
+#cattle{
+  float: left;
+  margin: 10px 20px 20px 20px;
+  width: 400px;
+  height: auto;
+}
+
+.Nosotros{
+  padding: 20px
+}
+
+.Nosotros{
+  margin: auto;
+  margin-top: 30px;
+  background: white;
+  width: 1000px;
+  height: 400px;
+}
+
+
+
+#contacto .Grupo {
+  margin-bottom: 20px;
+}
+
+#contacto label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contacto input,
+#contacto textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #ddd solid;
+}
+
+#contacto textarea {
+  height: 200px;
+}
+
+.containerC{
+  width: 70%;
+  margin: auto;
+}
+
+/* La propiedad focus se presenta cuando el usuario selecciona un input en este caso el resultado será un cambio de color en el borde de los inputs y de los textarea al momento de seleccionarlos */
+#contacto input:focus,
+#contacto textarea:focus {
+  outline: none;
+  border-color: #5BBF21;
+}
+
+
+/*VIDEOS*/
+#testimonials1{
+  height: auto;
+
+  padding-top: 100px;
+}
+
+.container-vid{
+  margin-top: 40px;
+  width: 100%;
+  height: 500px;
+}
+
+
+
+.containerCent{
+  background: blue;
+  width: 40%;
+  height: auto;
+  float: center;
+}
+
+.containerDer{
+  background: red;
+  width: 30%;
+  height: auto;
+  float: right;
+}
+
+.containerIzq iframe{
+  width: 30%;
+  height: auto;
+  float: left;
+}

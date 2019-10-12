@@ -1,0 +1,54 @@
+table {
+  width:40%;
+  border-style: solid;
+  border-width: 9px;
+  background-color: #1cacf7;
+  margin: auto;
+}
+
+#Imagen1{
+width: 80%;
+
+}
+th, td{
+  border: solid 3px black;
+}
+
+.Menu h1{
+float: left;
+padding-top: 20px;
+padding: 0 20px;
+color: white;
+}
+
+.container2{
+  background: black;
+  width: 80%;
+  height: 100px;
+  margin: auto;
+}
+
+.Menu a {
+ color: #fff;
+}
+
+.Menu ul {
+ list-style: none;
+ float: right;
+}
+.Menu ul li{
+ float: left;
+}
+ .Menu ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+
+ }
+
+ .Menu ul li a:hover,
+ .Menu ul li a.current {
+  border-color: #3d8e33;
+  background: #FFF;
+  color: #5BBF21;
+ }
